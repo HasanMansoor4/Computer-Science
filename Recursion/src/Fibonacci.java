@@ -20,6 +20,23 @@ public class Fibonacci {
 		return recFib(n-1) + recFib(n-2);
 	}
 	
+	// Time Complexity O(2^n) Exponential 
+	// Space Complecity O(n) - linear to maximum depth of
+	// the fib tree 
+
+	
+/*		 fib(5)   
+     /                \
+fib(4)               	 fib(3)   
+/        \              /       \ 
+fib(3)      fib(2)       fib(2)   fib(1)
+/    \       /    \        /      \
+fib(2)   fib(1)  fib(1) fib(0) fib(1) fib(0)
+/     \
+fib(1) fib(0)
+
+*/
+	
 	// Iterative implementation 
 	static int iterFib(int n) {
 		
