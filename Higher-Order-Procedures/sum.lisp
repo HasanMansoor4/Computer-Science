@@ -1,3 +1,11 @@
+; High order procedures: first class citizens
+; > named by variables
+; > used as arguments to other proc
+; > produced by other procedures as values
+; > incorprated within data structers
+; > procedures within procduers 
+; > anonymous procedure. Lambda notation. 
+
 ; Not only we can use numbers as data, but we can use procedures as data
 ; as well. Procedueral Arguments. High order Functions. Functions as data
 ; useful to abstract their inner workings. Functional Programming approach
