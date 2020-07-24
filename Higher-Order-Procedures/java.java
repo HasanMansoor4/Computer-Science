@@ -6,4 +6,6 @@ myList
     .filter(s -> s.startsWith("c"))
     .map(String::toUpperCase)
     .sorted()
-    .forEach(System.out::println);
+    .forEach(System.out::println); 
+
+// This a test comment from eclipse 
