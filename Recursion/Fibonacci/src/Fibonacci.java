@@ -8,7 +8,6 @@ public class Fibonacci {
 	public static void main(String[] args) {
 		System.out.println(recFib(10));
 		System.out.println(iterFib(10));
-    System.out.println("Hello World");
 	}
 	
 	
